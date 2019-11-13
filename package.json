@@ -1,0 +1,25 @@
+{
+  "name": "testingjs",
+  "version": "1.0.0",
+  "description": "Testing Practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samgaco/testingjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samgaco/testingjs/issues"
+  },
+  "homepage": "https://github.com/samgaco/testingjs#readme",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
