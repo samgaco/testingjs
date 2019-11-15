@@ -32,7 +32,7 @@
 
 Based on the [TESTING PRACTICE](https://www.theodinproject.com/courses/javascript/lessons/testing-practice) in the odin project as a part of the Microverse curriculum.
 
-The purpose of the project is to get a great intoduction to Test Driven Development in JavaScript[Jest](https://jestjs.io/docs/en/getting-started.html#content) test-running system has been used to test various methods.
+The purpose of the project is to get a great intoduction to Test Driven Development in [Jest](https://jestjs.io/docs/en/getting-started.html#content) test-running system has been used to test various methods.
 
 
 ### Built With
