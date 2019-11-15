@@ -7,18 +7,22 @@ const arrayAnalysis = require('./arrayAnalysis');
 
 test('My capitalize gets a string and returs the same string with the first letter in uppercase', () => {
   expect(mycapitalize('hello')).toBe('Hello');
+  expect(mycapitalize('world')).toBe('World');
 });
 
 test('My reverse takes a string and returns its reverse', () => {
   expect(myreverse('hello')).toBe('olleh');
+  expect(myreverse('world')).toBe('dlrow');
 });
 
 test('calculator can sum numbers', () => {
   expect(calculator.addition(1, 2)).toBe(3);
+  expect(calculator.addition(3, 5)).toBe(8);
 });
 
 test('calculator can substract a number from another', () => {
   expect(calculator.substraction(1, 2)).toBe(-1);
+  expect(calculator.substraction(4, 3)).toBe(1);
 });
 
 test('calculator can multiply numbers', () => {
@@ -27,6 +31,7 @@ test('calculator can multiply numbers', () => {
 
 test('calculator can get a fraction', () => {
   expect(calculator.fraction(1, 2)).toBe(0.5);
+  expect(calculator.fraction(3, 5)).toBe(0.6);
 });
 
 test('caesar test wrapping from z to a.', () => {
